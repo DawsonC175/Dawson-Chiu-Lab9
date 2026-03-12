@@ -1,13 +1,13 @@
-var grade1 = document.getElementById("sub1").value;
-var grade2 = document.getElementById("sub2").value;
-var grade3 = document.getElementById("sub3").value;
-
 var button = document.getElementById("calculate");
 
 average = Number(average);
 var finalgrade;
 
 button.addEventListener ("click", function(){
+
+    var grade1 = document.getElementById("sub1").value;
+    var grade2 = document.getElementById("sub2").value;
+    var grade3 = document.getElementById("sub3").value;
 
     grade1 = parseInt(grade1);
     grade2 = parseInt(grade2);
